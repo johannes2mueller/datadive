@@ -1,7 +1,7 @@
 #set working directory
 #IMPORTANT!! set your own working directory first to where "datadive" lives (e.g. GitHub) and then source this file
 setwd(paste(getwd(),"/datadive",sep=""))
-
+#dies ist eine änderung
 #source scrape_listen - scrape html files with the overview lists over the petitions
 source("data/1_scrape_liste.R")
 
